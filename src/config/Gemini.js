@@ -5,7 +5,7 @@ import {
 } from "@google/generative-ai";
 
 const MODEL_NAME = "gemini-pro"; // ✅ Correct name: gemini-pro
-const API_KEY = "AIzaSyBvWPZNUaNJyEy1B-twum0vnfVqW-59sxk"; // ⚠️ Keep private
+const API_KEY = "AIzaSyD-7nfl1qcqRdXOT7qe2dshk4HzjemG0h0"; // ⚠️ Keep private
 
 async function runChat(prompt) {
   const genAI = new GoogleGenerativeAI(API_KEY);
